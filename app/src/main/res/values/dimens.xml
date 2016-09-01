@@ -1,0 +1,9 @@
+<resources>
+    <dimen name="numpadEditTextSize">7mm</dimen>
+    <dimen name="numpadButtonTextSize">7mm</dimen>
+    <dimen name="numpadMaxHeight">25mm</dimen>
+    <dimen name="numpadMaxWidth">25mm</dimen>
+    <dimen name="numpadMinWidth">15mm</dimen>
+        
+
+</resources>

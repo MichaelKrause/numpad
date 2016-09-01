@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    
+	<LinearLayout 
+	    android:id="@+id/ExperimentLayout"
+	    android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center">
+        
+	    <RelativeLayout 
+	        android:id="@+id/inTaskInstructions"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_margin="0dp"
+	        android:layout_gravity="top">
+	        
+	        <TextView 
+	        	android:id="@+id/instruction"
+	        	android:layout_width="match_parent"
+	        	android:layout_height="wrap_content"
+	        	android:text="@string/TestText"
+	        	android:gravity="center_horizontal"
+	        	android:layout_gravity="bottom"
+	        	android:textSize="25sp"
+	        	android:textColor="#1CAF9A"/>
+	  
+	        <Button 
+        	android:id="@+id/OkButton"
+        	android:text="@string/OK"
+        	android:layout_width="150dp"
+        	android:layout_height="65dp"
+        	android:layout_alignParentRight="true"/>	        
+	    </RelativeLayout>
+
+	    <LinearLayout 
+	        android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+			android:gravity="center">
+    		<RelativeLayout
+        		android:id="@+id/RelativeLayoutExperimentWidget"
+        		android:layout_width="wrap_content"
+        		android:layout_height="wrap_content">
+    		</RelativeLayout>
+    	</LinearLayout>
+    </LinearLayout>
+
+
+</FrameLayout>

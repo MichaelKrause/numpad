@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TestActivity!</string>
+    <string name="app_name">response</string>
+    <string name="OK">OK</string>
+    <string name="TestText">Dies ist der Test Text</string>
+    <string name="DDS">Dreh-Drücksteller</string>
+    <string name="Touch">Touchscreen</string>
+    <string name="Welcome">Willkommen!</string>
+    <string name="VPNumber">VP</string>
+    <string name="Condition">Bedingung</string>
+    <string name="Stage">Phase</string>
+    
+    <string name="StagePrompt">Phase wählen...</string>
+ 
+    <string-array name="StageArray">
+        <item>Eingewöhnung</item>
+        <item>Okklusion</item>
+        <item>Baseline</item>
+        <item>Fahrt mit DRT</item>
+        <item>Fahrt mit Dikablis</item>
+    </string-array>
+
+</resources>

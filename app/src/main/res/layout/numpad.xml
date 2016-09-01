@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/NumpadLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/numpadText"
+            android:layout_height="wrap_content"
+            android:clickable="false"
+            android:editable="false"
+            android:ems="10"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:longClickable="false"
+            android:textSize="@dimen/numpadEditTextSize"
+            android:maxWidth="330dp"
+            android:width="330dp"
+            android:layout_width="wrap_content">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/numpadDel"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&lt;" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMinWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/Button01"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/Button02"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/Button03"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/Button04"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/Button05"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/Button06"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="9" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:id="@+id/Button07"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="*" />
+
+        <Button
+            android:id="@+id/Button08"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"                
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/Button09"
+            android:maxHeight="@dimen/numpadMaxHeight"
+            android:maxWidth="@dimen/numpadMaxWidth"
+            android:minWidth="@dimen/numpadMinWidth"
+            android:textSize="@dimen/numpadButtonTextSize"            
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="#" />
+    </LinearLayout>
+
+</LinearLayout>

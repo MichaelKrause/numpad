@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="de.tum.mw.lfe.response"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="11" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" 
+        android:theme="@android:style/Theme.Holo.Light">
+
+
+        <activity
+            android:icon="@drawable/phone48w"
+            android:name=".Activity1"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:label="Phone"
+            android:taskAffinity="de.tum.mw.lfe.response.Activity1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:icon="@drawable/phone48"
+            android:name=".Activity2"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:label="Phone"
+            android:taskAffinity="de.tum.mw.lfe.response.Activity2">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:icon="@drawable/phone48b"
+            android:name=".Activity3"
+            android:theme="@android:style/Theme.Holo.Light"
+            android:label="Phone"
+            android:taskAffinity="de.tum.mw.lfe.response.Activity3">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+
+    </application>
+
+</manifest>
